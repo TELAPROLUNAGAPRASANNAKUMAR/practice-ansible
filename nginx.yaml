@@ -1,0 +1,11 @@
+- name: install nginx package
+  hosts: monodb
+  tasks:
+  - name: install package
+    ansible.builtin.yum:
+      name: nginx
+      state: installed
+  - name: install package
+    ansible.builtin.service:
+      name: nginx
+      state: started
