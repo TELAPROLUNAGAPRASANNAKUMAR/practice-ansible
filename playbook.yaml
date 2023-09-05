@@ -1,0 +1,5 @@
+- name: ping the node
+  hosts: monodb
+  tasks:
+  - name: pinging the group
+    ansible.builtin.ping:

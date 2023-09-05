@@ -1,0 +1,10 @@
+- name: naga prasanna kumar
+  dob: 10-08-1995
+  address:
+    city: hyd
+    country: india
+
+  adresses:
+  - type: current
+    city: australia
+  
