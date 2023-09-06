@@ -5,5 +5,5 @@
     course: devops
   tasks:
   - name: printing the variables
-  ansible.builtin.debug:
-    msg: "my self {{name}} is preparing {{course}}"
+    ansible.builtin.debug:
+      msg: "my self {{name}} is preparing {{course}}"
