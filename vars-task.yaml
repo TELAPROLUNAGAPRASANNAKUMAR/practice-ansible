@@ -10,5 +10,5 @@
     vars:
       name: prasanna
       course: aws
-      ansible.builtin.debug:
-        msg: "my self {{name}} is preparing {{course}}"
+    ansible.builtin.debug:
+      msg: "my self {{name}} is preparing {{course}}"
