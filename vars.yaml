@@ -1,0 +1,9 @@
+- name: declaring variables at top level
+  host: monodb
+  vars:
+    name: naga prasanna kumar
+    course: devops
+  tasks:
+  - name: printing the variables
+  ansible.builtin.debug:
+    msg: "my self {{name}} is preparing {{course}}"
