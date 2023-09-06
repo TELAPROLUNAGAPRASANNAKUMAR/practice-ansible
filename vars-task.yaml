@@ -7,8 +7,8 @@
   - name: printing the variables
     ansible.builtin.debug:
       msg: "my self {{name}} is preparing {{course}}"
-  vars:
-    name: prasanna
-    course: aws
-    ansible.builtin.debug:
-      msg: "my self {{name}} is preparing {{course}}"
+    vars:
+      name: prasanna
+      course: aws
+      ansible.builtin.debug:
+        msg: "my self {{name}} is preparing {{course}}"
