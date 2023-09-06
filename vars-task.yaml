@@ -1,5 +1,5 @@
 - name: declaring variables at top level
-  hosts: monodb
+  hosts: localhost
   vars:
     name: naga prasanna kumar
     course: devops
