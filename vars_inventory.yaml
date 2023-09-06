@@ -2,5 +2,5 @@
   hosts: monodb
   tasks:
   - name: print inventory variables
-  ansible.builtin.debug:
-    msg: "{{name}}"
+    ansible.builtin.debug:
+      msg: "{{name}}"
