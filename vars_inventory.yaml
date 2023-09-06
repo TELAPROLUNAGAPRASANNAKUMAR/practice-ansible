@@ -3,4 +3,4 @@
   tasks:
   - name: print inventory variables
     ansible.builtin.debug:
-      msg: "username is {{name}}"
+      msg: "username is {{MONGO_USERNAME}}"

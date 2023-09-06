@@ -1,8 +1,10 @@
 [monodb]
 rooshop-us-dev-mongodb-1.joindevops.art
 
-[monodb:vars]
-name: naga prasanna
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
+NAME=Sivakumar-inventory
 
 
 
