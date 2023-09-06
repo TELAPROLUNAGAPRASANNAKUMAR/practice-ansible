@@ -1,10 +1,7 @@
-[monodb]
+[mongodb]
 rooshop-us-dev-mongodb-1.joindevops.art
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
 MONGO_DB=categories
 NAME=Sivakumar-inventory
-
-
-

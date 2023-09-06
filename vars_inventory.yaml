@@ -1,5 +1,5 @@
 - name: declare varibles from inventory
-  hosts: monodb
+  hosts: mongodb
   tasks:
   - name: print inventory variables
     ansible.builtin.debug:
