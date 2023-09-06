@@ -1,0 +1,10 @@
+- name: declaring varibles from prompt
+  hosts: localhost
+  vars_prompt:
+  - name: username
+    prompt: please enter username
+    private: false
+  - name: password
+    prompt: please enter password
+    private: true
+  
