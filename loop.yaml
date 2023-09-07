@@ -1,11 +1,10 @@
 - name: loops
-  host: mongodb
-  
+  hosts: mongodb
   tasks:
     - name: print thr variables
       ansible.builtin.debug:
         msg: "print out put {{item}}"
-      vars:
+      loop:
         - naga
         - prasanna
         - kumar
