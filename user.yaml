@@ -1,0 +1,6 @@
+- name: creating a user if it is not using condition
+  hosts: mongodb
+  tasks:
+  - name: check the user first
+    ansible.builtin.command: id roboshop
+    register: output
