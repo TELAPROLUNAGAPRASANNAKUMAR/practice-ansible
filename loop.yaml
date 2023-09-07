@@ -1,0 +1,12 @@
+- name: loops
+  host: mongodb
+  
+  tasks:
+    - name: print thr variables
+      ansible.builtin.debug:
+        msg: "print out put {{item}}"
+      vars:
+        - naga
+        - prasanna
+        - kumar
+      
