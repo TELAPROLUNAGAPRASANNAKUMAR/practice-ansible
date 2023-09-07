@@ -4,3 +4,6 @@
   - name: check the user first
     ansible.builtin.command: id roboshop
     register: output
+  - name: store the output
+    ansible.builtin.debug:
+      msg: "output is {{output}}""
